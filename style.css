@@ -19,6 +19,12 @@ section{
 span{
     color: #FD693A;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 
 /* Navigation Section Style here */
 
@@ -50,7 +56,6 @@ span{
     list-style: none;
 }
 .nav-area ul li a{
-    text-decoration: none;
     padding: 5px 20px;  
     color: #FFFFFF;
 }
@@ -61,10 +66,9 @@ span{
 .order-button a{
     margin-left: auto;
     padding: 10px 20px;
-    border-radius: 6px;
-    text-decoration: none;
+    border-radius: 20px;
     color: #FFFFFF;
-    background: linear-gradient(#a71005,#FD693A);;   
+    background-image: linear-gradient(to right,#e61c0e,#442bcf);    
     display: inline-block;
     margin-left: auto;
 }
@@ -98,7 +102,7 @@ span{
     border-radius: 20px;
     text-decoration: none;
     color: #FFFFFF;
-    background: linear-gradient(#a71005,#FD693A);   
+    background: linear-gradient(to right,#e61c0e,#442bcf);    
 }
 .header-right-side img{
     width: 70%;
@@ -133,7 +137,7 @@ span{
 .call-us a{
     padding: 10px 30px;
     text-decoration: none;
-    background: linear-gradient(#a71005,#FD693A);;
+    background: linear-gradient(to right,#e61c0e,#442bcf); 
     color: #FFFFFF;
     border-radius: 20px;
 }
@@ -190,7 +194,7 @@ span{
     border-radius: 20px;
     text-decoration: none;
     color: #FFFFFF;
-    background: linear-gradient(#a71005,#FD693A);; 
+    background: linear-gradient(to right,#e61c0e,#442bcf); 
     display: inline-block;
     margin-top: 20px;
 }
@@ -199,20 +203,24 @@ span{
     box-shadow: 2px 2px 30px #ddd;
     border-radius: 20px;
     justify-content: space-around;
+    align-items: center;
     margin: 100px 0;
 }
 .followers-section h2{
     font-size: 48px;
     color: #2c2c2c;
     text-align: center;
-    margin-bottom: 0px ;
+    margin: 10px 0;
+}
+.followers-section h4{
+    margin: 10px 0;
 }
 /* Our Menu Section Style Here */
 
 .our-menus{
     padding: 30px 0;
     padding-bottom: 80px;
-    background: url(images/shapes/Frame\ 56.jpg);
+    background: url(images/shapes/Frame\ 58.jpg);
     background-size: cover;
 }
 .popular-title{
@@ -253,7 +261,7 @@ span{
     margin: 0;
 }
 .item a{
-    background: linear-gradient(#a71005,#FD693A);;
+    background: linear-gradient(to right,#e61c0e,#442bcf); 
     color: #FFFFFF;
     text-decoration: none;
     display: inline-block;
@@ -262,18 +270,55 @@ span{
     border-radius: 20px;
 }
 
-/* Exclusive section Style Here */
+/* Contact section Style Here */
 
-.exclusive-section{
+.contact-section{
     padding-bottom: 80px;
 }
-.exclusive-title{
+.contact-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.social-media{
+    width: 30%;
+}
+.social-media h2{
+    line-height: 2em;
+}
+.social-media ul{
+    display: flex;
+}
+.social-media ul li{
+    padding: 5px 10px;
+}
+.social-media ul li a{
+    font-size: 20px;
+    color: #000000;
+}
+.contact-form{
+    width: 70%;
+}
+.contact-form h2{
     text-align: center;
 }
-.cake-card, .card .cake-title, .card .cake-description{
-    text-align: center;
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+.contact-form form input{
+    width: 60%;
+    padding: 8px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    outline: none;
+}
+.contact-form form input[type=button]{
+    background: #FD693A;
+    color: #FFFFFF;
+    border-color: #FD693A ;
+}
 /* Footer Style here */
 footer{
     text-align: center;
