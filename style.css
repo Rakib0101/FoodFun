@@ -102,6 +102,7 @@ a{
     border-radius: 20px;
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 22px;
     background: linear-gradient(to right,#e61c0e,#ec6b20);    
 }
 .header-right-side img{
@@ -141,6 +142,7 @@ a{
 .call-us a{
     padding: 10px 30px;
     text-decoration: none;
+    font-size: 22px;
     background: linear-gradient(to right,#e61c0e,#ec6b20); 
     color: #FFFFFF;
     border-radius: 20px;
@@ -268,6 +270,7 @@ span{
 .item a{
     background: linear-gradient(to right,#e61c0e,#ec6b20);
     color: #FFFFFF;
+    font-size: 18px;
     text-decoration: none;
     display: inline-block;
     margin-left: 10px;
