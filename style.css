@@ -273,7 +273,8 @@ span{
 /* Contact section Style Here */
 
 .contact-section{
-    padding-bottom: 80px;
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.7);
 }
 .contact-area{
     display: flex;
@@ -285,39 +286,60 @@ span{
 }
 .social-media h2{
     line-height: 2em;
+    color: #FFFFFF;
 }
 .social-media ul{
     display: flex;
+    justify-content: left;
+    padding: 0;
 }
 .social-media ul li{
     padding: 5px 10px;
 }
+.social-media ul li:first-child{
+    padding-left: 0px;
+}
 .social-media ul li a{
     font-size: 20px;
-    color: #000000;
+    color: #FFFFFF;
 }
 .contact-form{
-    width: 70%;
+    width: 70%;  
 }
 .contact-form h2{
     text-align: center;
+    color: #FFFFFF;
 }
 .contact-form form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
-.contact-form form input{
-    width: 60%;
-    padding: 8px 0;
-    margin: 0;
+.contact-form form input[type=text],
+.contact-form form input[type=email]{
+    width: 50%;
+    padding: 8px 5px;
+    margin: 0 auto;
     margin-bottom: 10px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.6);
     outline: none;
+    border: transparent;
+}
+.contact-form form input::placeholder{
+    color: #ddd;
 }
 .contact-form form input[type=button]{
     background: #FD693A;
     color: #FFFFFF;
-    border-color: #FD693A ;
+    border-radius: 20px;
+    padding: 8px 30px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: none ;
+    margin: 0 auto;
 }
 /* Footer Style here */
 footer{
