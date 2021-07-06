@@ -308,7 +308,9 @@ span{
     color: #FFFFFF;
 }
 .contact-form{
-    width: 70%;  
+    width: 68%; 
+    border: 1px solid #2d2d2d; 
+    border-radius: 10px;
 }
 .contact-form h2{
     text-align: center;
@@ -323,11 +325,11 @@ span{
 .contact-form form input[type=text],
 .contact-form form input[type=email]{
     width: 50%;
-    padding: 8px 5px;
+    padding: 10px 5px;
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 6px;
-    background: rgba(0, 0, 0, 0.6);
+    background: #2d2d2d;
     outline: none;
     border: transparent;
 }
