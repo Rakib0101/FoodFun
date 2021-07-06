@@ -336,7 +336,7 @@ span{
 .contact-form form input::placeholder{
     color: #ddd;
 }
-.contact-form form a{
+.contact-form form input[type=submit]{
     background: linear-gradient(to right,#e61c0e,#ec6b20);
     color: #FFFFFF;
     border-radius: 20px;
