@@ -64,7 +64,7 @@ span{
     border-radius: 6px;
     text-decoration: none;
     color: #FFFFFF;
-    background: #FD693A;   
+    background: linear-gradient(#a71005,#FD693A);;   
     display: inline-block;
     margin-left: auto;
 }
@@ -91,13 +91,14 @@ span{
 .main-header p{
     font-size: 22px;
     color: #575757;
+    line-height: 2em;
 }
 .header-left-side .btn a{
     padding: 10px 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     text-decoration: none;
     color: #FFFFFF;
-    background: #FD693A;   
+    background: linear-gradient(#a71005,#FD693A);   
 }
 .header-right-side img{
     width: 70%;
@@ -132,9 +133,9 @@ span{
 .call-us a{
     padding: 10px 30px;
     text-decoration: none;
-    background: #FD693A;
+    background: linear-gradient(#a71005,#FD693A);;
     color: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 /* Recipies Section Style From Here */
@@ -182,13 +183,14 @@ span{
 }
 .card p{
     text-align: left;
+    line-height: 1.7em;
 }
 .card a{
     padding: 10px 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     text-decoration: none;
     color: #FFFFFF;
-    background: #FD693A; 
+    background: linear-gradient(#a71005,#FD693A);; 
     display: inline-block;
     margin-top: 20px;
 }
@@ -251,13 +253,13 @@ span{
     margin: 0;
 }
 .item a{
-    background: #FD693A;
+    background: linear-gradient(#a71005,#FD693A);;
     color: #FFFFFF;
     text-decoration: none;
     display: inline-block;
     margin-left: 10px;
     padding: 5px 10px;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 /* Exclusive section Style Here */
